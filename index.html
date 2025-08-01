@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hussein El Mazbouh | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+        <ul class="navbar" id="navMenu">
+         <li><a href="#about">About Me</a></li>
+         <li><a href="#projects">Projects</a></li>
+           <li><a href="#contact">Contact Me</a></li>
+          </ul>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container">
+      <img src="profile.jpg" alt="Hussein El Mazbouh" class="profile-pic" />
+      <h1>I'm Hussein El Mazbouh</h1>
+      <p>Welcome To My Webpage</p>
+      <hr>
+      <a href="Hussein_El_Mazbouh_CV2.pdf" download class="btn">Download CV</a>
+      <div class="socials">
+        <br>
+        <a href="https://github.com/husseinelmazbouh" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/hussein-el-mazbouh-967970241/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+       I am a passionate Computer Science graduate from the Lebanese University with a strong foundation in software engineering, web development, and mobile application design. <br><br>
+    I’ve worked on various academic and personal projects ranging from e-commerce platforms to mobile content managers and ASP.NET web apps. My main goal is to keep learning, build real-world applications, and collaborate with teams to solve meaningful problems. <br><br>
+    Currently, I’m seeking internship opportunities to gain industry experience, improve my technical and communication skills, and contribute to impactful projects.
+      </p>
+    </div>
+  </section>
+
+ <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <img src="bookstore1.png" alt="Bookstore in PHP">
+              <img src="bookstore2.png" alt="Bookstore in PHP">
+          <h3>Bookstore App</h3>
+          <p>A dynamic bookstore website built with PHP and MySQL for managing books and users.</p>
+          <a href="https://github.com/husseinelmazbouh/bookstore-php">GitHub Repository</a>
+        </div>
+        <div class="project">
+          <img src="moviesbooks1.png" alt="Movies and Book Store">
+          <img src="moviesbooks2.png"alt="Movies and Book Store">
+          <h3>Movies and Book Store</h3>
+          <p>Simple front-end store interface using HTML and CSS to showcase movies and books.</p>
+          <a href="https://github.com/husseinelmazbouh/BooksAndMovies-Web">GitHub Repository</a>
+        </div>
+        <div class="project">
+          <img src="travelmate.png" alt="TravelMate Project">
+          <h3>TravelMate (Study Project)</h3>
+          <p>A travel management app that lets users book hotels, transportation, and explore tourist attractions.</p>
+          <a href="https://github.com/husseinelmazbouh/TravelMate">GitHub Repository</a>
+        </div>
+        <div class="project">
+          <img src="guessgame.png" alt="Guess Number Razor App">
+          <h3>Guess the Number</h3>
+          <p>.NET 8 Razor Pages app that validates number rules using Endpoint Filters and in-memory logic.</p>
+          <a href="https://github.com/husseinelmazbouh/GuessNumber-DotNet">GitHub Repository</a>
+        </div>
+        <div class="project">
+          <img src="contentapp.png" alt="Content Manager Android">
+          <h3>Content Manager App</h3>
+          <p>Android app using Java & XML to add, update, and delete content, stored in-memory.</p>
+          <a href="https://github.com/husseinelmazbouh/ContentManager-Mobile">GitHub Repository</a>
+        </div>
+        <div class="project">
+          <img src="portfolio.png" alt="This Portfolio">
+          <h3>Portfolio Website</h3>
+          <p>This personal portfolio website built using HTML and CSS only — no frameworks.</p>
+          <a href="https://github.com/husseinelmazbouh/Hussein-El-Mazbouh-Full-Stack-Mobile-Developer">GitHub Repository</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>You can reach me on LinkedIn or Gmail:</p>
+       <p>Email: <a href="mailto:husseinelmazbouh1@gmail.com"><i class="fas fa-envelope"></i> husseinelmazbouh1@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Copyright &copy; 2025 Hussein El Mazbouh. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navMenu").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
